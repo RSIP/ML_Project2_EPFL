@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # The input data dir. Should contain the .tsv files (or other data files) for the task.
-DATA_DIR = "data/"
+DATA_DIR = "../data/twitter-datasets/"
 
 # Bert pre-trained model selected in the list: bert-base-uncased,
 # bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased,
@@ -27,7 +27,7 @@ DATA_DIR = "data/"
 BERT_MODEL = 'bert-base-cased'
 
 # The name of the task to train.
-TASK_NAME = 'yelp'
+TASK_NAME = 'tweet_sentiment_analysis'
 
 # The output directory where the model predictions and checkpoints will be written.
 OUTPUT_DIR = f'outputs/{TASK_NAME}/'
