@@ -120,3 +120,12 @@ BERT/cache/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.6810
 .idea/misc.xml
 .idea/inspectionProfiles/profiles_settings.xml
 .DS_Store
+Datasets/twitter-datasets/dev.tsv
+Datasets/twitter-datasets/sample_submission.csv
+Datasets/twitter-datasets/test_data.txt
+Datasets/twitter-datasets/train.tsv
+Datasets/twitter-datasets/train_neg.txt
+Datasets/twitter-datasets/train_neg_full.txt
+Datasets/twitter-datasets/train_pos.txt
+Datasets/twitter-datasets/train_pos_full.txt
+BERT/cache/tweets10percent.tgz
