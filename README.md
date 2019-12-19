@@ -1,6 +1,6 @@
 # Machine Learning EPFL 2019 - Project 2
 
-## TEPFL ML Text Classification 2019
+## EPFL ML Text Classification 2019
 
 ### Abstract:
 
