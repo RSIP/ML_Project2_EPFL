@@ -28,11 +28,17 @@ Here are the different packages needed to reproduce our experiments:
 - `multiprocessing`: for displaying number of processes used.
 - `pytorch_pretrained_bert`: for BERT model.
 
-Download our trained BERT model, and the vocab here:
+You can download our trained BERT model, and the vocab here:
 
 - BERT model: https://drive.google.com/file/d/1xhYsQ_wfs9YLE7neKH9bHXjm7AOjIRfj/view?usp=sharing and put it in `./BERT/cache/`.
 
 - vocab: https://drive.google.com/file/d/1G9lCWutsnQMmxszruJk6F_-hDS9FpShc/view?usp=sharing and put it in `./BERT/outputs/tweet_sentiment_analysis/`.
+
+If you want to obtain it by yourself:
+1. Run `./BERT/data_prep_tweets.ipynb`.
+2. Run `./BERT/BERT_train_tweets.ipynb`.
+3. Archive the obtained files `pytorch_model.bin` and `config.json` from `./BERT/outputs/tweet_sentiment_analysis/` into a `tweets10percent.tgz` file and place it into `./BERT/cache/`.
+4. Run `run.py` to obtain the submission file in `./Datasets/twitter-datasets/`.
 
 ### Directory structure:
 
