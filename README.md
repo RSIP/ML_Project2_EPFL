@@ -30,7 +30,7 @@ Here are the different packages needed to reproduce our experiments:
 
 Download our trained BERT model here:
 
-
+https://drive.google.com/file/d/1xhYsQ_wfs9YLE7neKH9bHXjm7AOjIRfj/view?usp=sharing
 
 ### Directory structure:
 
