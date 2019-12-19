@@ -13,7 +13,7 @@ def load_tweets(full = False, bert = False):
         wether or not it is used for the BERT approach
     """
 
-    DATA_FOLDER = './data/twitter-datasets/'
+    DATA_FOLDER = './Datasets/twitter-datasets/'
     
     if bert:
         DATA_FOLDER = '.' + DATA_FOLDER  
