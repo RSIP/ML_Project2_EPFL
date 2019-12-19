@@ -28,9 +28,11 @@ Here are the different packages needed to reproduce our experiments:
 - `multiprocessing`: for displaying number of processes used.
 - `pytorch_pretrained_bert`: for BERT model.
 
-Download our trained BERT model here:
+Download our trained BERT model, and the vocab here:
 
-https://drive.google.com/file/d/1xhYsQ_wfs9YLE7neKH9bHXjm7AOjIRfj/view?usp=sharing
+- BERT model: https://drive.google.com/file/d/1xhYsQ_wfs9YLE7neKH9bHXjm7AOjIRfj/view?usp=sharing and put it in `./BERT/cache/`.
+
+- vocab: https://drive.google.com/file/d/1G9lCWutsnQMmxszruJk6F_-hDS9FpShc/view?usp=sharing and put it in `./BERT/outputs/tweet_sentiment_analysis/`.
 
 ### Directory structure:
 
