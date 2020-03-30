@@ -2,6 +2,8 @@
 
 ## EPFL ML Text Classification 2019
 
+### Team: @rlaraki @jouvemax @pierreschutz
+
 ### Abstract:
 
 Text  classification  is  a  challenging  problem  thathas  many  applications  such  as  spam  filtering,  language  iden-tification...   Researchers   started   to   address   the   problem   inthe  1980s  but  with  the  recent  explosion  of  data  availableand  advances  in  Machine  Learning,  the  field  gained  a  lot  oftraction. This report details our work on the ”EPFL ML TextClassification  Challenge”  where  the  goal  is  to  use  machinelearning  to  classify  tweets.  We  have  to  predict  if  the  tweetcontained  a  ”:)”  or  a  ”:(”  smiley.  Thus  we  need  to  classify  atweet as positive or negative. 
